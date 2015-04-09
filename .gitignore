@@ -1,0 +1,15 @@
+data-validation-demo-haskell
+data-validation-demo-scala
+data-validation-demo-swift
+data-validation-demo-rust
+auto
+_minted-*
+*_latexmk
+*.fls
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
