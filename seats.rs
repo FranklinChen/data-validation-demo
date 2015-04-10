@@ -8,7 +8,7 @@ pub enum Error {
 
 impl Seats {
   pub fn make(num: i32) -> Result<Seats, Error> {
-    if num < 0 {
+    if num <= 0 {
       Err(Error::BadCount(num))
     } else {
       Ok(Seats { num: num })
